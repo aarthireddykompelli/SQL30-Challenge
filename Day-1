@@ -14,5 +14,5 @@ Solution:
 Select email,
 first_name,
 last_name
-From Nextmobile Users
+From [Nextmobile Users]
 where email_addresses IS NOT NULL
