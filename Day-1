@@ -11,8 +11,8 @@ id	                 email	                       first_name	             last_na
 
 Solution: 
 
-Select email;
-first_name;
+Select email,
+first_name,
 last_name
 From Nextmobile Users
 where email_addresses IS NOT NULL
