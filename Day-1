@@ -1,0 +1,18 @@
+🗻 Day 1 Challenge
+NextMobile is getting ready for its monthly customer newsletter, and the marketing team needs a list of customer users with their email addresses, first names, and last names from the primary database. As a member of the marketing team, your responsibility is to extract this data from the database and send it to the marketing team.
+
+
+id	                 email	                       first_name	             last_name
+003500M7Q93CKG2je2	shannigane0@qq.com	            Sibeal	                Hannigane
+003500339Kgli7N5t9	lbentham1@shutterfly.com	      Lockwood	              Bentham3
+003500oS7XRqSuGyQ2	lodoran2@51.la	                Loren	                  O'Doran
+0035003Xgg2dDhmjRB	bwhitley3@shutterfly.com	      Bidget	                Whitley
+003500Sr76b5k8V6n7	bfrensch4@time.com	            Bibbye	                Frensch
+
+Solution: 
+
+Select email;
+first_name;
+last_name
+From Nextmobile Users
+where email_addresses IS NOT NULL
