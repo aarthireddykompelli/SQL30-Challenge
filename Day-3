@@ -1,0 +1,17 @@
+🗻 Day 3 Challenge
+NextMobile is planning a promotion for customers who use less than 20GB of data in a month. Before finalizing the offer, the marketing team wants to determine the number of customers in this category.
+
+NextMobile Usage
+id	                data_usage
+003500M7Q93CKG2je2	46.4
+003500339Kgli7N5t9	24.33
+003500oS7XRqSuGyQ2	46.6
+0035003Xgg2dDhmjRB	43.01
+003500Sr76b5k8V6n7	37.53
+
+Solution:
+
+Select COUNT(*) 
+From[NextMobile Usage]
+Where data_usage < '20'
+
