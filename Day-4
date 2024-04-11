@@ -1,0 +1,17 @@
+🗻 Day 4 Challenge
+NextMobile is preparing for their annual bonus redemption event. During this event, customers can convert their loyalty points at a rate of 1.5 times their current points. The marketing team wants to identify customers who, after applying this bonus conversion rate, will have 150,000 points or more.
+
+NextMobile Loyalty
+
+id	                points
+003500M7Q93CKG2je2	79840
+003500339Kgli7N5t9	97245
+003500oS7XRqSuGyQ2	51389
+0035003Xgg2dDhmjRB	88168
+003500Sr76b5k8V6n7	63523
+
+Solution:
+
+Select id, points*1.5 as bonus_points
+From [NextMobile Loyalty]
+Where points *1.5 >= "150000"
